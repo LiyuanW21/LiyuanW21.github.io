@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>王利媛 - 个人简历</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: 'Noto Sans SC', 'Microsoft Yahei', Arial, sans-serif; margin: 0; padding: 0; background: #fff; color: #222; }
+    .container { max-width: 850px; margin: 0 auto; padding: 30px 18px; }
+    .header { display: flex; align-items: flex-start; justify-content: space-between; border-bottom: 2px solid #222; padding-bottom: 20px; }
+    .profile-info { flex: 1 1 auto; }
+    .profile-info h1 { margin: 0 0 16px 0; font-size: 2.2em; font-weight: bold; }
+    .profile-list { margin: 0; padding: 0; list-style: none; font-size: 1.05em; }
+    .profile-list li { margin-bottom: 7px; }
+    .icon { margin-right: 5px; color: #6b6b6b; }
+    .avatar { width: 140px; border-radius: 16px; box-shadow: 0 2px 10px rgba(0,0,0,0.09); margin-left: 30px; }
+    h2 { margin-top: 36px; margin-bottom: 14px; font-size: 1.35em; font-weight: bold; border-bottom: 1px solid #222; padding-bottom: 4px; }
+    section { margin-bottom: 24px; }
+    .sub-list { margin: 0; padding-left: 1.8em; }
+    .sub-list li { margin-bottom: 2px; }
+    .sub-bullet { position: relative; margin-left: 1.6em; padding-left: 1.2em; color: #222; font-size: 1em; }
+    .sub-bullet::before { content: ''; display: inline-block; width: 0.45em; height: 0.45em; border-radius: 50%; background: #222; position: absolute; left: 0; top: 0.7em; }
+    .award-list, .exp-list, .project-list, .skills-list { padding-left: 1.2em; margin: 0; }
+    .award-list li, .exp-list li, .project-list li, .skills-list li { margin-bottom: 6px; line-height: 1.7; }
+    .pub-list { padding-left: 1.2em; margin: 0 0 0 0; }
+    .pub-list li { margin-bottom: 7px; line-height: 1.7; }
+    .pub-journal { font-style: italic; font-weight: bold; }
+    .pub-remark { font-size: 0.96em; color: #444; }
+    .small { font-size: 0.94em; color: #666; }
+    @media (max-width: 600px) {
+      .header { flex-direction: column; align-items: flex-start; }
+      .avatar { margin: 18px 0 0 0; width: 110px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="profile-info">
+        <h1>王利媛</h1>
+        <ul class="profile-list">
+          <li><span class="icon">🎂</span>出生日期：1994.01</li>
+          <li><span class="icon">🏠</span>籍贯：浙江台州</li>
+          <li><span class="icon">📚</span>专业：植物病理学</li>
+          <li><span class="icon">🏫</span>学校：南京农业大学</li>
+          <li><span class="icon">📞</span>电话：19101620121</li>
+          <li><span class="icon">✉️</span>邮箱：liyuanwang0121@163.com</li>
+        </ul>
+      </div>
+      <img src="assets/photo.jpg" alt="个人照片" class="avatar">
+    </div>
+
+    <section>
+      <h2>研究领域</h2>
+      <ol class="sub-list">
+        <li>
+          植物病原菌如何利用表观遗传机制调控效应反应基因表达来逃避寄主识别/增强自身致病力。
+          <div class="sub-bullet">
+            组织蛋白修饰；小RNA；mRNA NAD<sup>+</sup>帽子修饰；DNA修饰等。
+          </div>
+        </li>
+        <li>人工智能在生物信息学中的应用。</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>教育工作经历</h2>
+      <ul class="exp-list">
+        <li>2021/08–至今 &nbsp; 上海交通大学农业与生物学院 &nbsp; 博士后/助研（合作导师：侯英楠）</li>
+        <li>2015/09–2021/06 &nbsp; 南京农业大学植物保护学院 &nbsp; 硕/博士连读（导师：董莹萌）</li>
+        <li>2019/01–2020/09 &nbsp; 加拿大农业部轮转研究中心 &nbsp; 公派联合培养（导师：Mark Gijzen）</li>
+        <li>2014/05–2014/08 &nbsp; 中国水稻研究所 &nbsp; 毕业实习（导师：侯雨查）</li>
+        <li>2011/09–2015/06 &nbsp; 浙江农林大学农生与食品科学学院 &nbsp; 农学学士（导师：饶琮）</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>论文发表</h2>
+      <ol class="pub-list">
+        <li>
+          Effector gene silencing coordinated by histone methylation and small RNAs enhances host adaptation in a plant pathogen.
+          <span class="pub-remark">(In peer-review, 第一兼共通讯)</span>
+        </li>
+        <li>
+          scGO: interpretable deep neural network for cell status annotation and disease diagnosis. 2025,
+          <span class="pub-journal">Brief Bioinform.</span>
+          <span class="pub-remark">(IF<sub>2023</sub>=6.8).  共同第二</span>
+        </li>
+        <li>
+          Candy or poison: plant metabolites as swing factors against microbes. 2024,
+          <span class="pub-journal">Molecular Plant</span>
+          <span class="pub-remark">(IF<sub>2023</sub>=17.1). 第一作者, spotlight</span>
+        </li>
+        <li>
+          Effector gene silencing mediated by histone methylation underpins host adaptation in an oomycete plant pathogen. 2020,
+          <span class="pub-journal">Nucleic Acids Res.</span>
+          <span class="pub-remark">(IF<sub>2023</sub>=16.6). 第一作者</span>
+        </li>
+        <li>
+          Simultaneous profiling of ac4C and m5C modifications from nanopore direct RNA sequencing. 2025,
+          <span class="pub-journal">Int. J. Biol. Macromol.</span>
+          <span class="pub-remark">(IF<sub>2023</sub>=7.7). 第四作者</span>
+        </li>
+        <li>
+          Phytophthora methylomes are modulated by 6mA methyltransferases and associated with adaptive genome regions. 2018,
+          <span class="pub-journal">Genome Biol.</span>
+          <span class="pub-remark">(IF<sub>2023</sub>=10.1). 第三作者</span>
+        </li>
+        <li>
+          JMJ704 positively regulates rice defense response against <i>Xanthomonas oryzae</i> pv. oryzae infection via reducing H3K4me2/3 associated with negative disease resistance regulators. 2015,
+          <span class="pub-journal">BMC Plant Biology.</span>
+          <span class="pub-remark">(IF<sub>2023</sub>=4.3). 第二作者</span>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>主持项目</h2>
+      <ul class="project-list">
+        <li>国家自然科学基金青年项目，32400164，2025-01至2027-12，在研。</li>
+        <li>中国博士后科学基金面上项目，2022M712097，2022-01至2023-08，已结题。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>社会任职</h2>
+      <ul class="project-list">
+        <li>Genomics Communication 杂志青年编委</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>获奖情况</h2>
+      <ul class="award-list">
+        <li>2022.12｜上海市遗传学会青年论坛优秀海报奖</li>
+        <li>2022.12｜2022年江苏省优秀博士学位论文</li>
+        <li>2022.06｜南京农业大学2022年校级优秀学位论文</li>
+        <li>2022.05｜上海交通大学2021年度“晨星博士后激励计划”</li>
+        <li>2021.06｜南京农业大学2021届优秀毕业生</li>
+        <li>2020.12｜南京农业大学2020年度最具影响力研究生（年度共10名研究生获选）</li>
+        <li>2020.12｜2020年南京农业大学研究生学术科技作品竞赛一等奖（自然科学类博士组一等奖共2人）</li>
+        <li>2020.06｜南京农业大学2020年度校长奖学金（年度共8名博士生获奖）</li>
+        <li>2019.01｜中化农业MAP奖学金（年度共8名研究生获奖）</li>
+        <li>2018.04｜第19届Oomycete Molecular Genetics Network Meeting最佳海报奖（年度共3人）</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>专长技能</h2>
+      <ol class="skills-list">
+        <li>卵菌遗传转化技术，包括大豆疫霉、辣椒疫霉以及致病疫霉，可敲敲除、回补、替换和过表达。</li>
+        <li>分子生物学实验，包括 RT-qPCR、Western-blot 等常规实验以及 ChIP-seq、NAD-seq、GMUCT 等测序库构建。</li>
+        <li>生物信息学分析，包括 RNA-seq、small RNA-seq、ChIP-seq、NAD-seq、降解组测序流程分析及作图。</li>
+      </ol>
+    </section>
+  </div>
+</body>
+</html>
