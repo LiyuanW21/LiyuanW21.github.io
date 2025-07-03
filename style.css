@@ -21,49 +21,37 @@ header {
   margin-bottom: 30px;
   padding-bottom: 14px;
   text-align: center;
-  min-height: 170px; /* 保证有足够空间容纳头像 */
-}
-
-.header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  min-height: 160px; /* 视图片大小可调整 */
 }
 
 .header-text {
-  flex: 1;
-  min-width: 0;
   display: flex;
   flex-direction: column;
-  align-items: center; /* 让左侧内容区水平居中 */
+  align-items: center;
 }
 
-header h1 {
-  margin: 0 0 2px 0;
-  color: #15418f;
-  font-size: 2.2em;
-  font-weight: 600;
-  text-align: center; /* 防止缩小窗口后错位 */
-}
-
-.profile-photo {
+.profile-photo-float {
+  position: absolute;
+  top: 24px;
+  right: 36px;
   width: 120px;
   height: 120px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #e3e3e3;
   box-shadow: 0 2px 10px rgba(0,0,0,0.07);
-  margin-left: 32px;
+  background: #fff;
 }
 
-@media (max-width: 600px) {
-  .header-content {
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 700px) {
+  .profile-photo-float {
+    position: static;
+    display: block;
+    margin: 24px auto 0 auto;
   }
-  .profile-photo {
-    margin-left: 0;
-    margin-top: 16px;
+  header {
+    min-height: 0;
+    padding-bottom: 0;
   }
 }
 
