@@ -40,6 +40,10 @@ header .subtitle p {
   justify-content: space-between;
 }
 
+.center-title {
+  text-align: center;
+}
+
 .header-text {
   flex: 1;
   min-width: 0;
