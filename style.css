@@ -68,7 +68,27 @@ header h1 {
 }
 
 section {
-  margin-bottom: 26px;
+  margin-bottom: 28px;
+}
+
+.sub-bullet {
+  position: relative;
+  margin-left: 2em;
+  color: #555;
+  font-size: 0.97em;
+  padding-left: 1em;
+  line-height: 1.7;
+}
+.sub-bullet::before {
+  content: '';
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background: #888;
+  position: absolute;
+  left: 0;
+  top: 0.7em;
 }
 
 h2 {
